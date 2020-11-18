@@ -5,12 +5,12 @@ public class AudioPlayer implements MediaPlayer {
     public AudioPlayer() {
     }
 
-    MediaAdapter obj1 = new MediaAdapter();
+    MediaAdapter adapter1 = new MediaAdapter();
 
     @Override
     public void play(String audioType, String fileName) {
 
-        obj1.play(audioType, fileName);
+        adapter1.play(audioType, fileName);
 
     }
 
